@@ -20,7 +20,17 @@ Renderizado dinámico de listas con v-for
 
 Enrutamiento dinámico por nombre de Pokémon
 
-🛠 Tecnologías
+## 📸 Vista previa
+
+### PC
+![Vista en PC](./assets/screenshots/desktop.png)
+
+### Tablet
+![Vista en tablet](./assets/screenshots/tablet.png)
+
+### Móvil
+![Vista en móvil](./assets/screenshots/mobile.png)
+
 
 📂 Estructura del proyecto
 
