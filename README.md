@@ -20,21 +20,11 @@ Renderizado dinámico de listas con v-for
 
 Enrutamiento dinámico por nombre de Pokémon
 
-🛠 Tecnologías utilizadas
-
-Vue 3 (Composition API)
-
-Vite
-
-Vue Router
-
-JavaScript (ES6+)
-
-CSS3
-
-PokeAPI
+🛠 Tecnologías
 
 📂 Estructura del proyecto
+
+
 src/
 │
 ├── components/
@@ -48,13 +38,15 @@ src/
 │
 ├── App.vue                   # Componente raíz
 └── main.js                   # Entrada principal
+
+
 ▶️ Instalación y ejecución
 
 Clonar el repositorio:
 
 git clone https://github.com/Diexx23/pokedex-vue.git
 
-Entrar a la carpeta del proyecto:
+Entrar a la carpeta:
 
 cd pokedex-vue
 
@@ -82,10 +74,6 @@ Uso de computed para filtrado reactivo
 Enrutamiento dinámico con Vue Router
 
 Diseño responsive y UX amigable
-
-📸 Vista previa
-
-Agrega aquí capturas de pantalla o GIFs de la aplicación en acción.
 
 👨‍💻 Autor
 
