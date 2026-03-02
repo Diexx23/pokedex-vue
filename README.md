@@ -24,7 +24,6 @@ Enrutamiento dinámico por nombre de Pokémon
 
 📂 Estructura del proyecto
 
-
 src/
 │
 ├── components/
@@ -61,21 +60,9 @@ npm run dev
 Abrir en el navegador:
 
 http://localhost:5173
-🎯 Objetivos académicos cumplidos
 
-Consumo de API REST
+🌐 Demo en vivo
 
-Uso de componentes en Vue
+La aplicación está desplegada y accesible online en Vercel:
 
-Uso de directivas v-for y v-model
-
-Uso de computed para filtrado reactivo
-
-Enrutamiento dinámico con Vue Router
-
-Diseño responsive y UX amigable
-
-👨‍💻 Autor
-
-Diego Vasquez
-Estudiante de Ingeniería Multimedia
+https://pokedex-vue-vercel.vercel.app
