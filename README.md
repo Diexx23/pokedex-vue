@@ -1,78 +1,144 @@
-📘 Pokédex Interactiva
+# 📘 Pokédex Interactiva
 
-Aplicación web desarrollada con Vue 3 + Vite que consume la API pública de Pokémon para mostrar una Pokédex dinámica e interactiva.
+Aplicación web desarrollada con **Vue 3 + Vite** que consume la API pública de Pokémon para mostrar una Pokédex dinámica e interactiva.
+El proyecto implementa **estado global, filtros dinámicos, búsqueda en tiempo real y persistencia de datos en el navegador**, mejorando la experiencia del usuario.
 
-🚀 Características
+---
 
-Consumo de API REST desde PokeAPI
+# 🚀 Características
 
-Visualización dinámica de 20 Pokémon
+* Consumo de API REST desde **PokeAPI**
+* Visualización dinámica de **151 Pokémon**
+* Buscador en tiempo real
+* Filtros dinámicos por tipo de Pokémon
+* Ordenamiento alfabético (A-Z / Z-A)
+* Manejo de estado global con **Pinia**
+* Sistema de **favoritos**
+* Persistencia de favoritos usando **localStorage**
+* Componentes reutilizables
+* Navegación entre vistas con **Vue Router**
+* Renderizado dinámico de listas con **v-for**
+* Diseño responsive compatible con **PC, tablet y móvil**
+* Estados de interfaz:
 
-Buscador en tiempo real con v-model
+  * Loading
+  * Mensajes de error
+  * Estado vacío
 
-Filtrado reactivo usando computed
+---
 
-Diseño responsive con CSS Grid
+# 🛠 Tecnologías utilizadas
 
-Navegación entre vistas con Vue Router
+* Vue 3
+* Vite
+* Pinia
+* Vue Router
+* JavaScript
+* CSS Grid / Flexbox
+* API REST
 
-Renderizado dinámico de listas con v-for
+---
 
-Enrutamiento dinámico por nombre de Pokémon
+# 📸 Vista previa
 
-## 📸 Vista previa
+## PC
 
-### PC
 ![Vista en PC](./assets/screenshots/desktop.png)
 
-### Tablet
+## Tablet
+
 ![Vista en tablet](./assets/screenshots/tablet.png)
 
-### Móvil
+## Móvil
+
 ![Vista en móvil](./assets/screenshots/mobile.png)
 
+---
 
-📂 Estructura del proyecto
+# 📂 Estructura del proyecto
 
+```
 src/
 │
 ├── components/
-│   └── PokemonList.vue       # Lista de Pokémon
+│   ├── PokemonCard.vue
+│   ├── SearchBar.vue
+│   └── FilterBar.vue
 │
 ├── views/
-│   └── PokemonDetail.vue     # Detalle de cada Pokémon
+│   ├── PokemonList.vue
+│   └── DetailView.vue
+│
+├── stores/
+│   └── pokemonStore.js
 │
 ├── router/
-│   └── index.js              # Configuración de rutas
+│   └── index.js
 │
-├── App.vue                   # Componente raíz
-└── main.js                   # Entrada principal
+├── App.vue
+└── main.js
+```
 
+---
 
-▶️ Instalación y ejecución
+# ▶️ Instalación y ejecución
 
-Clonar el repositorio:
+Clonar el repositorio
 
+```
 git clone https://github.com/Diexx23/pokedex-vue.git
+```
 
-Entrar a la carpeta:
+Entrar al proyecto
 
+```
 cd pokedex-vue
+```
 
-Instalar dependencias:
+Instalar dependencias
 
+```
 npm install
+```
 
-Ejecutar en modo desarrollo:
+Ejecutar en modo desarrollo
 
+```
 npm run dev
+```
 
-Abrir en el navegador:
+Abrir en el navegador
 
+```
 http://localhost:5173
+```
 
-🌐 Demo en vivo
+---
 
-La aplicación está desplegada y accesible online en Vercel:
+# 🌐 Demo en vivo
+
+La aplicación está desplegada y accesible online en **Vercel**
 
 https://pokedex-vue-vercel.vercel.app
+
+---
+
+# 📊 Funcionalidades implementadas
+
+| Funcionalidad             | Implementación                      |
+| ------------------------- | ----------------------------------- |
+| Estado global             | Pinia                               |
+| Búsqueda dinámica         | v-model + computed                  |
+| Filtros                   | Tipos dinámicos desde API           |
+| Ordenamiento              | Computed                            |
+| Persistencia              | localStorage                        |
+| Componentes reutilizables | SearchBar / FilterBar / PokemonCard |
+| UX mejorada               | Loading y estados vacíos            |
+| Responsive                | CSS Grid                            |
+
+---
+
+# 👨‍💻 Autor
+
+Proyecto desarrollado por **Diego Vásquez**
+Estudiante de Ingeniería Multimedia
