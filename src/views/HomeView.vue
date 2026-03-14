@@ -1,3 +1,7 @@
+import PokemonCard from "../components/PokemonCard.vue"
+import SearchBar from "../components/SearchBar.vue"
+import FilterBar from "../components/FilterBar.vue"
+
 <script setup>
 import PokemonList from "../components/PokemonList.vue"
 </script>
